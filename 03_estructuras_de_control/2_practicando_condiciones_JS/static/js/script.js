@@ -103,7 +103,7 @@ function ejercicio7() {
 
 function ejercicio8() {
    let nota=6.0
-   if(nota > 5.0){
+   if(nota =>   5.0){
       alert(`Haz aprobado`)
    }
    else {
@@ -120,7 +120,7 @@ function ejercicio8() {
 function ejercicio9() {
    let precioOriginal=20000
    let descuento=0.1
-   alert(`precio final con descuento ${precioOriginal- precioOriginal* descuento}`)
+   alert(`precio final con descuento ${precioOriginal- precioOriginal* descuento}$`)
 
 }
 
