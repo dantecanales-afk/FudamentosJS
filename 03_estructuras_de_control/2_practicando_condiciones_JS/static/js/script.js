@@ -55,10 +55,11 @@ function ejercicio4() {
 // "El promedio es: 5.7"
 
 function ejercicio5() {
-   let nota1=5.4
-   let nota2=6.0
-   let sumaNotas=nota1+nota2
-   let promedio=sumaNotas/2
+   let nota1=5.5
+   let nota2=5.7
+   let nota3=5.9
+   let sumaNotas=nota1+nota2+nota3
+   let promedio=sumaNotas/3
    alert(`El promedio seria: ${promedio}`)
 
 }
